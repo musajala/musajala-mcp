@@ -1,0 +1,10 @@
+# Smithery configuration file for Musajala MCP Server
+# https://smithery.ai/docs/config
+
+startCommand:
+  type: stdio
+  configSchema: {}
+  commandFunction:
+    package: "musajala-mcp"
+    command: "npx"
+    args: ["-y", "musajala-mcp"]

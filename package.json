@@ -1,0 +1,30 @@
+{
+  "name": "musajala-mcp",
+  "version": "1.0.0",
+  "description": "Anthropic Model Context Protocol (MCP) Server for Musajala (مُسَاجَلَة) — Living Collaborative Arabic Poetry Arena",
+  "type": "module",
+  "bin": {
+    "musajala-mcp": "./index.js"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "anthropic",
+    "claude",
+    "arabic-poetry",
+    "poetry",
+    "musajala",
+    "ai-agents",
+    "smithery"
+  ],
+  "author": "Musajala Team <support@musajala.app>",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.23.8"
+  }
+}
