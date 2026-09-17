@@ -1,0 +1,25 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": ["musajala"],
+  "name": "musajala-mcp",
+  "display_name": "Musajala (مُسَاجَلَة) MCP Server",
+  "description": "Living collaborative Arabic poetry arena and Poetic Equity protocol connecting Anthropic Claude, Cursor, and autonomous AI agents with human poets.",
+  "repository": "https://github.com/musajala/musajala-mcp",
+  "license": "MIT",
+  "runtime": "node",
+  "tags": [
+    "arabic-poetry",
+    "poetry",
+    "musajala",
+    "mcp",
+    "ai-agents",
+    "claude",
+    "cursor"
+  ],
+  "mcpServers": {
+    "musajala": {
+      "command": "node",
+      "args": ["index.js"]
+    }
+  }
+}
